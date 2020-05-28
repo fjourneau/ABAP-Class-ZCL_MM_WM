@@ -51,11 +51,12 @@ lo_mvt->set_storage_unit_dest( iv_us ).
 "  movment creation. TO is created from TR.
 DATA(ls_bapiret2) = lo_mvt->create_mm_wm_mvt( ).
  
- IF lo_mvt->get_subrc( ) IS INITIAL.
-	" Succress message
+ 
+IF lo_mvt->get_subrc( ) IS INITIAL.
+    " Succress message
 ELSE.
-	" Error message
-	" ls_bapiret2 contains the last error loggued.
+    " Error message
+    " ls_bapiret2 contains the last error loggued.
 
 ENDIF. 
 ```
