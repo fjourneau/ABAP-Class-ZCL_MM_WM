@@ -1,12 +1,18 @@
 # ABAP-Class-ZCL_MM_WM
 SAP : Class to manage MM/WM movments
+Version : 1.0
 
 The goal of this class is to simplify the code and make it clear.
 
 > :warning: **Warning** This code has been design for specific needs. This class shall be completed and behavior may change according your customization system.
 
->:information_source: Also notice that code has been developped on SAP release 7.6. If your working on version lower than 7.4, you shall do some code adaptations. :
+>:information_source: Also notice that code has been developped on SAP release 7.6. If your working on version lower than 7.4, you shall do some code adaptations. 
 
+
+## Pre-requiste
+
+You must have the following classes declared globally (in SE24) on your system :
+* [ZCL_MANAGE_LOCK v1.0](https://github.com/fjourneau/ABAP-Class-ZCL_MANAGE_LOCK/tree/v1.0) (v1.0 at least)
 ## Examples
 
 Check how easy it can be to do some cool actions :
