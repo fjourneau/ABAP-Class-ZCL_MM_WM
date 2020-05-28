@@ -16,7 +16,7 @@ Check how easy it can be to do some cool actions :
 DATA(lo_mvt) = NEW zcl_mm_wm_zh( ).
 
 " Transaction MB1A
-lo_mvt->set_mm_mvt_transaction( me->c_mm_mvt_tcode-mb1a ).
+lo_mvt->set_mm_mvt_transaction( zcl_mm_wm_zh=>c_mm_mvt_tcode-mb1a ).
 
 " Mvt code (BWART)
 lo_mvt->set_mm_mvt_code( '201' ).
